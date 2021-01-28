@@ -4,6 +4,8 @@ Version: 21.01a
 Repository URL: https://github.com/AberystwythSystemsBiology/limbus/tree/21.01a
 Contact: Keiron O'Shea <keo7@aber.ac.uk>
 Date: 28/01/2021
+
+Setup Script Version: Aberfan
 ==============================================================================
 '''
 
