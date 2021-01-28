@@ -51,4 +51,20 @@ You'll know if the setup was successful because you will be prompted with an ASC
 
 ### Step Four: Post Install
 
+I've provided a `systemd` service file in the helper repository. You are free to set up your own start up scripts, but if you do chose to use the one provided simply copy the service file to `systemd/system` folder and enable it.
 
+```bash
+$ sudo cp limbus.service /etc/systemd/system/
+$ sudo systemctl enable limbus
+$ sudo systemctl start limbus
+```
+
+To check if the server is running, run.
+
+```bash
+$ sudo systemctl status limbus
+```
+
+And it should say that the service is now `active (running)`.
+
+The system runs on port 5000, so please ensure that your port forwarding reflects that.
