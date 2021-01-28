@@ -3,4 +3,4 @@ Repostiory Containing the Open Virtualisation Appliance for various releases of 
 
 ## Setup Guide
 
-- We assume that you have a user called limbus on the guest system.
+### Step One:
